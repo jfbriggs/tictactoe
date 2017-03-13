@@ -1,0 +1,40 @@
+td {
+  border: 1px solid grey;
+  width: 3em;
+  height: 3em;
+  text-align: center;
+}
+
+td:hover {
+  cursor: pointer;
+  background-color: #d3d3d3;
+}
+
+div#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.app-container {
+  margin-top: 15%;
+  width: 50%;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  height: 3em;
+}
+
+.board-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
